@@ -1,0 +1,36 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* CLEARFIX */ 
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+} 
+
+/* Text helper classes */
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+} 
+
+.imagen1 {
+	height: 30em;
+	background-image: url(../img/persona.jpg);
+	background-size: cover;
+}
+
+.icono {
+	height: 2em;
+	background-image: url(../img/icon-meto.png);
+}
